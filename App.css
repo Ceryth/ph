@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  background-color: #1a202c;
+  padding: 20px;
+  color: white;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-section {
+  margin: 20px 0;
+}
+
+.download-link {
+  text-decoration: none;
+  background-color: #61dafb;
+  color: black;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: #4bb3e6;
+}
+
+.donation-section {
+  margin-top: 40px;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.token-address-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.token-address {
+  font-family: 'Courier New', monospace;
+  font-size: 1.2rem;
+  background-color: #333;
+  color: #61dafb;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  word-break: break-all;
+}
+
+.copy-button {
+  background-color: #61dafb;
+  color: #000;
+  border: none;
+  padding: 8px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.copy-button:hover {
+  background-color: #4bb3e6;
+  transform: scale(1.05);
+}
+
+.copy-status {
+  margin-top: 10px;
+  color: #61dafb;
+  font-size: 0.9rem;
+  font-style: italic;
+}
